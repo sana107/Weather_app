@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contain{
+    width: 100%;
+   
+}
+#search_box{
+    width: 100%;
+    
+    height: 120vh;
+    color: black;
+}
+
+#weatherCard{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(247, 244, 244);
+    background-image: url(./pexels-summerstock-325117.jpg);
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire div */
+    border: none;
+}
+.upper{
+    width: 100%;
+}
+.lower{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* Toggle container styling */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Toggle button base styling */
+  .toggle-btn {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+  
+  /* Circle inside the toggle button */
+  .toggle-circle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Active state for toggle button */
+  .toggle-btn.active {
+    background-color: #f4fc22;
+  }
+  
+  .toggle-btn.active .toggle-circle {
+    transform: translateX(26px);
+  }
+  
+
