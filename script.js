@@ -53,13 +53,7 @@ const fetchweather= async (e)=>{
         h3.innerText = data.location.region;
         h5.innerText = data.location.country;
         p.innerText = data.location.localtime;
-        // h6.innerText = data.current.condition.text;
-        // console.log( data.humidity);
-        // humidity.innerText=data.current.humidity;
-        // wind.innerText=data.current.wind_kph;
-        console.log( data);
         
-        // img.setAttribute("src", data.current.condition.icon);
       } catch (error) {
         window.alert("Invaild City Name");
         card.className = "d-none";
